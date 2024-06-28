@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: mone;
+}
+header{
+    margin-left: 80% ;
+    margin-right: 20%;
+}
+body{
+    font-family: Arial;
+    background-color:rgb(37, 175, 229);
+    padding: 50px;
+}
+h1{
+    font-size: 60px;
+} 
+h2{
+    white-space: nowrap;
+    text-align: center;   
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 7px;
+    margin: 50px 0;
+    font-size: 40px;
+}
+h3{
+    display: block;
+    text-align: center;
+    padding: auto;
+}
+.safecheck{
+    margin: 20px auto;
+    /* width: 300px; */
+    color: white;
+}
+.safecheck_screen{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.app-title{
+    text-align: center;
+}
+.safecheck_form{
+    text-align: center;
+    /* width: 80%;
+    margin: 0 auto; */
+    
+}
+#submit{
+    color: white;
+    width: 40%;
+    height: 2em;
+    font-size: 1.3em;
+    background: rgb(27, 102, 132);
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 10px;
+    font-weight: bold;
+
+}
+
+#submit:hover{
+    background-color: #2980b9;
+
+}
+
+a{
+    display: block;
+    padding: 50px;
+    text-align: center;
+}

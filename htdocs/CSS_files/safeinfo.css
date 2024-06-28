@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: mone;
+}
+body{
+    font-family: Arial;
+    background-color:rgb(37, 175, 229);
+    padding: 50px;
+}
+header{
+    margin-left: 80% ;
+    margin-right: 20%;
+}
+.scroll-top{
+    width: 8%;
+    height: 2em;   
+    font-size: 1.3em;
+    background: rgb(27, 102, 132);
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+}
+.app-title{
+    text-align: center;
+    color: white;
+}
+.safeinfro-control {
+    background-color: #FFF;
+    border: 1px groove #4d4c49;
+    width: 45%;
+    height: 15em;
+    text-align: center;
+    margin: auto; /* 左右の余白を自動調整 */
+}
+
+
+#place{
+    border: 2px solid #4d4c49;
+    width:60%;
+    height: 50px;
+    margin:5px 80px;
+    font-size: 1.5em;
+    background-color: rgb(27, 102, 132);
+    color: white;
+    text-align: center;
+}
+#number{
+    border: 2px solid #4d4c49;
+    width:60%;
+    height: 50px;
+    margin:5px 80px;
+    font-size: 1.5em;
+    background-color: rgb(27, 102, 132);
+    color: white;
+    text-align: center;
+}
+#safe{
+    border: 2px solid #4d4c49;
+    width:60%;
+    height: 50px;
+    margin:5px 80px;
+    font-size: 1.5em;
+    background-color: rgb(27, 102, 132);
+    color: white;
+    text-align: center;
+}
+#search{
+    border: 2px solid #4d4c49;
+    width:30%;
+    height: 20%;
+    margin:5px 80px;
+    font-size: 1.2em;
+    background-color: rgb(27, 102, 132);
+    color: white;
+    text-align: center;
+}
+#submit{
+    border: 2px solid #4d4c49;
+    width:30%;
+    height: 50px;
+    margin:5px 80px;
+    font-size: 1em;
+    background-color: rgb(27, 102, 132);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.btn{
+    text-align: center;
+}
+
+#place,
+#Employee_Number,
+#safe {
+    border: 2px solid #4d4c49;
+    width: 60%; /* 必要に応じて幅を調整してください */
+    height: 50px; /* 高さは一貫性を保ちます */
+    margin: 5px 80px;
+    font-size: 1.5em;
+    background-color: rgb(27, 102, 132);
+    color: #FFF;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.safeinfrocontrol-group input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* 半透明の白色を指定 */
+}
+
+
+caption{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.table-style {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-style th, .table-style td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-style th {
+    background-color: #4d4c49;
+}
+
+.table-style tr:nth-child(even) {
+    background-color: #b8b8b8;
+}
+
+.table-style tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.comment_exist{
+    font-weight: bold;
+}
+
+.unconfirm{
+    color: black;
+    font-weight: bold;
+}
+
+.damege{
+    color: red;
+    font-weight: bold;
+}
+
+.safe{
+    color: green;
+    font-weight: bold;
+}

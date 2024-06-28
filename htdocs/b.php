@@ -1,0 +1,44 @@
+<?php
+require_once "controller.php";
+if(create_acc('2230001')) echo 1;
+echo '<pre>';
+if(create_acc('2230002')) echo 2;
+echo '<pre>';
+if(create_acc('2230003')) echo 3;
+echo '<pre>';
+if(create_acc('2230004')) echo 4;
+echo '<pre>';
+if(create_acc('2230005')) echo 5;
+echo '<pre>';
+if(create_acc('2230006')) echo 6;
+echo '<pre>';
+if(create_acc('2230007')) echo 7;
+echo '<pre>';
+if(create_acc('2230008')) echo 8;
+echo '<pre>';
+if(create_acc('2230009')) echo 9;
+echo '<pre>';
+if(create_acc('2230010')) echo 10;
+echo '<pre>';
+if(create_acc('2230011')) echo 11;
+echo '<pre>';
+if(create_acc('2230012')) echo 12;
+echo '<pre>';
+if(create_acc('2230013')) echo 13;
+echo '<pre>';
+if(create_acc('2230014')) echo 14;
+echo '<pre>';
+if(create_acc('2230015')) echo 15;
+echo '<pre>';
+if(create_acc('2230016')) echo 16;
+echo '<pre>';
+if(create_acc('2230017')) echo 17;
+echo '<pre>';
+if(create_acc('2230018')) echo 18;
+echo '<pre>';
+if(create_acc('2230019')) echo 19;
+echo '<pre>';
+if(create_acc('2230020')) echo 20;
+echo '<pre>';
+
+?>

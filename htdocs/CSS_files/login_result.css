@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: mone;
+}
+body{
+    font-family: Arial;
+    background-color:rgb(37, 175, 229);
+    padding: 50px;
+}
+header{
+    margin-left: 80% ;
+    margin-right: 20%;
+}
+
+.caution{
+    text-align: center;
+    color:red;
+}
+a{
+    display: block;
+    padding: 50px;
+    text-align: center;
+
+}

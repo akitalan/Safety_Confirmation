@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  mysql:
+    build: ./db
+    container_name: db-container
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'sd1'
+  php-apache:
+    build: ./php
+    container_name: web-container
+    volumes:
+     - ./htdocs:/var/www/html
+     - ./php/php.ini:/usr/local/etc/php/php.ini
+    restart: always
+    ports:
+     - 8080:80
+    depends_on:
+     - mysql
+
+volumes:
+   db_data: {}
+

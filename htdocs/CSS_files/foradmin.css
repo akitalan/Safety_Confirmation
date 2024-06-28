@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: mone;
+}
+body{
+    font-family: Arial;
+    /* padding: 80px; */
+    background-color:rgb(37, 175, 229);
+}
+
+.app-title{
+    text-align: center;
+    color: black;
+}
+
+header p{
+    margin-left: 80% ;
+    margin-right: 20%;
+}
+h1{
+    font-size: 60px;
+}
+
+
+.button{
+    color: white;
+    width: 30%;
+    padding: 1em;
+    font-size: 1.3em;
+    background: rgb(27, 102, 132);
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    margin:30px 80px;
+}
+.relationship_form{
+    text-align: center;
+    margin: 160px 0; /* 必要に応じてmargin-topの値を調整してください */
+}
+.return{
+    color: white;
+    width: 12%;
+    height: 2em;
+    background-color:rgb(27, 102, 132) ;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin:80px 70px;
+}
+.return p{
+    text-align: center;
+}

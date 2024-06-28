@@ -1,0 +1,74 @@
+.scroll-top {
+    width: 12%;
+    height: 3em;
+    font-size: 1em;
+    background: rgb(27, 102, 132);
+    border-radius: 10px;
+    display: block;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.scroll-top a{
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.return{
+    width: 15%;
+    height: 3em;
+    font-size: 1em;
+    background: rgb(27, 102, 132);
+    border-radius: 10px;
+    display: block;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.return a{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.button {
+    width: 50%;
+    top: auto;
+    font-size: 1.3em;
+    background: rgb(27, 102, 132);
+    border-radius: 20px;
+    display: block;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+}
+
+.button a{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.scroll-top:hover, .button:hover {
+    background-color: rgb(10, 45, 61);
+}
+
+.return:hover{
+    background-color: rgb(209, 48, 48);
+}

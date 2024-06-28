@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: mone;
+}
+body{
+    font-family: Arial;
+    /* padding: 80px; */
+    background-color:rgb(37, 175, 229);
+}
+.scroll-top{
+    width: 8%;
+    height: 2em;   
+    font-size: 1.3em;
+    background-color: rgb(27, 102, 132);
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+header{
+    margin-left: 80% ;
+    margin-right: 20%;
+    text-align: center;
+}
+.app-title{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+h1{
+    font-size: 60px;
+}
+.control-group{
+    margin-bottom: 10px;
+    border-radius: 3px;
+    margin:30px 80px;
+}
+input{
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 300px;
+    height: 60px;
+    border: 2px groove #727270;
+}
+#submit{
+    width: 10%;
+    height: 2em;   
+    font-size: 1.2em;
+    background: rgb(27, 102, 132);
+    border-radius: 5px;
+    color: #FFF;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+
+.true_message{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.false_message{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: mone;
+}
+body{
+    font-family: Arial;
+    background-color:rgb(37, 175, 229);
+    padding: 50px;
+}
+header{
+    margin-left: 80% ;
+    margin-right: 20%;
+}
+.scroll-top{
+    width: 8%;
+    height: 2em;   
+    font-size: 1.3em;
+    background: rgb(27, 102, 132);
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+.app-title{
+    text-align: center;
+    color: white;
+}
+.control{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    color: white;
+    
+}
+.control-group{
+    border: 2px groove #4d4c49;
+    width: 25%;
+    height: 40%;
+    margin: 5px 0;
+    font-size: 1.3em;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    color: #FFF;
+    text-decoration: none;
+}
+h1{
+    font-size: 60px;
+}
+h2 img{
+    text-align: center;
+}
+h2{
+    white-space: nowrap;
+    text-align: center;   
+}
+textarea{ 
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border: 2px groove #4d4c49;
+    /* border:3px solid #4d4c49 ; */
+    font-size: 1.3em;
+    margin:5px 0;
+    margin-top: 0px;
+    text-align: center; 
+    border-radius: 10px;
+    letter-spacing: 10px;
+
+}
+.box{
+    margin: 60px 90px;
+}
+#submit{
+    width: 10%;
+    height: 2em;   
+    font-size: 1.3em;
+    background: rgb(27, 102, 132);
+    margin: auto;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
+
+/* .impressions{
+    text-align: center;
+} */
